@@ -1501,9 +1501,16 @@ input[type="radio"]:checked::before {
     }
 
     .result_main_third img {
-        width: 70%;
-        margin-left: 190px;
+        /*width: 70%;*/
+        /*margin-left: 190px;*/
         margin-bottom: 50px;
+
+
+    }
+    .result_main_third_img img{
+     display: block;
+        margin: 0 auto;
+        margin-bottom: 38px;
 
 
     }
@@ -1574,6 +1581,9 @@ input[type="radio"]:checked::before {
 
     .case_studies_main_right {
         left: 45%;
+    }
+    .result_main_third_img {
+        margin-right: 0;
     }
 }
 
@@ -1699,6 +1709,35 @@ input[type="radio"]:checked::before {
     .case_studies_button {
         width: 70%;
     }
+    .wrapper_money_first div >p:nth-child(1){
+        padding: 0 0 0 0;
+        font-size: 35px;
+        margin: 0;
+
+    }
+    .wrapper_money_first div >p:nth-child(2){
+        padding: 0 0 0 0;
+        font-size: 20px;
+    }
+
+    .wrapper_money_second div >p:nth-child(1){
+        padding: 0 0 0 0;
+        font-size: 35px;
+        margin: 0;
+
+    }
+    .wrapper_money_second div >p:nth-child(2){
+        padding: 0 0 0 0;
+        font-size: 20px;
+    }
+    .result_main_third_img img{
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*margin-right: 20px;*/
+    }
+
 }
 
 @media screen and (max-width: 959px) {
@@ -1793,6 +1832,25 @@ input[type="radio"]:checked::before {
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    .wrapper_money_first{
+        display: block;
+
+    }
+    .wrapper_money_second{
+        display: block;
+    }
+    .wrapper_money_first > div:nth-child(1) {
+    margin: 0 0 17px 0;
+    }
+    .wrapper_money_first > div:nth-child(2) {
+        margin: 0;
+    }
+    .wrapper_money_second > div:nth-child(1) {
+        margin: 0 0 17px 0;
+    }
+    .wrapper_money_second > div:nth-child(2) {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -1809,6 +1867,13 @@ input[type="radio"]:checked::before {
         width: 45%;
         top: 14%;
         left: 60%;
+    }
+    .result_main_third img {
+        /*width: 70%;*/
+        /*margin-left: 190px;*/
+        margin-bottom: 50px;
+
+
     }
 }
 
@@ -1852,6 +1917,12 @@ input[type="radio"]:checked::before {
     .owerview_conent p{
         font-size: 18px;
     }
+    .case_studies_main_right img {
+        /*    height: 58%;*/
+        width: 45%;
+        top: 14%;
+        left: 50%;
+    }
 
 
 }
@@ -1878,6 +1949,12 @@ input[type="radio"]:checked::before {
     /*    height: 110px;*/
     /*    width: 110px;*/
     /*}*/
+    .result_main_third_img img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 681px) {
@@ -1963,10 +2040,28 @@ input[type="radio"]:checked::before {
         /*    height: 58%;*/
         width: 55%;
         top: 16%;
-        left: 58%;
+        left: 45%;
         height: 56%;
     }
+    .footer_top_nav{
+       flex-basis: 70%;
+    }
 }
+
+@media screen and (max-width: 562px) {
+    .footer_top_nav {
+        flex-basis: 77%;
+    }
+    .footer_top{
+        display: block;
+    }
+    .footer_top_logo img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 541px) {
     .owerview p {
         padding: 0;
@@ -2062,6 +2157,23 @@ input[type="radio"]:checked::before {
         .main_first_bottom p {
             padding: 10px;
         }
+        .footer_top_nav{
+            display: block;
+        }
+        .footer_top_nav_butt{
+            text-align: center;
+        }
+        .footer_top_nav_icon{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom:15px ;
+        }
+        .footer_nav_left a{
+            font-size: 12px;
+        }
+        .footer_bottom_left p{
+            font-size: 14px;
+        }
     }
 
     @media screen and (max-width: 399px) {
@@ -2084,6 +2196,12 @@ input[type="radio"]:checked::before {
         .about_us {
             margin-top: 330px;
         }
+        /*.footer_top_nav_icon img{*/
+        /*    font-size: 5px;*/
+        /*}*/
+        /*.footer_top_nav_butt a{*/
+        /*    padding: 10px 10px;*/
+        /*}*/
     }
 }
 
